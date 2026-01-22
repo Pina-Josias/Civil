@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Josías &amp; Sara | Monarquía Moderna</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f9d406",
+                        "terracotta": "#a64d33",
+                        "olive-deep": "#3d4430",
+                        "background-light": "#f8f8f5",
+                        "background-dark": "#23200f",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
+        }
+        .diamond-cut {
+            clip-path: polygon(2% 0, 100% 0, 100% 98%, 98% 100%, 0 100%, 0 2%);
+        }
+        .museum-spotlight:hover {
+            filter: grayscale(0%) brightness(1.1);
+            transition: all 0.5s ease;
+        }
+        .museum-spotlight {
+            filter: grayscale(100%) brightness(0.8);
+            transition: all 0.5s ease;
+        }
+        .gold-dust {
+            background-image: radial-gradient(circle, #f9d406 1px, transparent 1px);
+            background-size: 100px 100px;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#1c1a0d] selection:bg-primary/30">
+<!-- Top Navigation -->
+<header class="fixed top-0 w-full z-50 px-10 py-6">
+<div class="max-w-7xl mx-auto flex items-center justify-between border-b border-primary/20 pb-4">
+<div class="flex items-center gap-2">
+<span class="text-terracotta text-2xl font-extrabold tracking-tighter">J&amp;S</span>
+<div class="h-px w-12 bg-primary"></div>
+</div>
+<nav class="hidden md:flex items-center gap-12 text-[10px] uppercase tracking-[0.4em] font-semibold text-[#1c1a0d]/70">
+<a class="hover:text-terracotta transition-colors" href="#">Our Story</a>
+<a class="hover:text-terracotta transition-colors" href="#">The Garden</a>
+<a class="hover:text-terracotta transition-colors" href="#">Gallery</a>
+<a class="hover:text-terracotta transition-colors" href="#">RSVP</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="bg-transparent border border-primary/30 hover:bg-primary/10 transition-all p-2 rounded">
+<span class="material-symbols-outlined text-primary text-xl">key</span>
+</button>
+</div>
+</div>
+</header>
+<main class="relative">
+<!-- Hero Section with Video Backdrop Concept -->
+<section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+<!-- Simulated Video Background (Olive Green Palace Garden) -->
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-olive-deep/20 mix-blend-overlay z-10"></div>
+<div class="w-full h-full bg-cover bg-center" data-alt="Cinematic wide shot of royal palace gardens in olive green tones" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAawFvUaO_nYTDt7ZqpKdXVQGLRPxaSXFR6hqkZV4Ho_fCpHq22gswvkn3s9yHnqnNOVQcYA-OicAsIg84FxWuvrJ3Wr1zTLqNflLrHzDj_j9Li7AbTQ5RwkwmSwnZrvQ_rUn6RWgDJKJHqQLO5whptlP8wPSfPf6JsmW7NpzcjRAqV7JcTKd9Bp6BPPuFIuPrcWXarD4IVsa3UGQCIJSXtwzSDr-jI1mMxZ3ukCZUxp7fyQt0yhKuPkTRphzvrFg6_i7rzJvRRlZw');"></div>
+</div>
+<!-- Floating Gold Dust Layer -->
+<div class="absolute inset-0 z-10 gold-dust opacity-20 pointer-events-none"></div>
+<!-- Glass Invitation Card -->
+<div class="relative z-20 w-full max-w-4xl px-4">
+<div class="glass-card diamond-cut p-12 md:p-20 text-center flex flex-col items-center gap-8">
+<div class="flex flex-col gap-2">
+<span class="text-terracotta text-xs uppercase tracking-[0.6em] font-bold">The Royal Invitation</span>
+<h1 class="text-[#1c1a0d] text-6xl md:text-8xl font-black leading-none tracking-[-0.05em]">
+                            Josías &amp; Sara
+                        </h1>
+<p class="text-olive-deep/80 text-lg md:text-xl font-medium tracking-wide mt-4">
+                            Sábado, 24 de Agosto, 2024 • 17:00 HRS
+                        </p>
+</div>
+<div class="h-px w-24 bg-primary/40"></div>
+<p class="max-w-md text-sm md:text-base text-[#1c1a0d]/60 leading-relaxed font-light italic">
+                        "En el corazón de los jardines reales, dos almas se unen bajo la promesa de una monarquía eterna y moderna."
+                    </p>
+<div class="flex flex-wrap justify-center gap-6 mt-4">
+<button class="bg-primary text-[#1c1a0d] px-10 py-4 font-bold text-xs uppercase tracking-[0.2em] shadow-xl hover:translate-y-[-2px] transition-transform">
+                            View Invitation
+                        </button>
+<button class="bg-white/50 backdrop-blur-md border border-white text-[#1c1a0d] px-10 py-4 font-bold text-xs uppercase tracking-[0.2em] hover:bg-white transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">event</span>
+                            Add to Calendar
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Section Header: The Palace Grounds -->
+<section class="bg-background-light py-24 px-10">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row items-end justify-between gap-8 mb-16 border-l-4 border-terracotta pl-8">
+<div>
+<h2 class="text-4xl md:text-6xl font-black text-[#1c1a0d] tracking-tight">The Palace Grounds</h2>
+<p class="text-olive-deep/60 mt-4 max-w-lg text-lg">Architectural symmetry meets nature's wild elegance. Join us in the heart of the Grand Conservatory.</p>
+</div>
+<div class="text-right">
+<span class="text-primary text-6xl font-thin block">01</span>
+<span class="text-xs uppercase tracking-widest font-bold text-terracotta">Location Details</span>
+</div>
+</div>
+<!-- Featured Card: The Monogram -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<div class="group relative overflow-hidden diamond-cut bg-background-dark h-[500px]">
+<div class="absolute inset-0 bg-cover bg-center opacity-70 group-hover:scale-105 transition-transform duration-700" data-alt="Modern architectural detail of a palace corridor" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDotGjuwiFt_GLYWgOSyGOAyDgjhHr9Fj0lb9P0fT324fT5o50ugZLxKov5orFLUD6ompVHjc37TNQkyqQNUy7-t6-xXW0Bnr51Y_l3DC9ZurZZ2ArQY_Lro57CheDdH7-HRYiJQlJQemSI8rg6Uqa1HYI3n28Az6NF1T6u8ogTrc7Va0mqm7ZT0ae-7yRBAqZEo0QIY_wRd0YZ3PBc8K1vFZvmzoTTOkwVX8rC8sH03csv3-iNSACIBjpo36IHVQQycUImJw6exAE');"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<h3 class="text-white text-9xl font-black opacity-10 group-hover:opacity-30 transition-opacity">J&amp;S</h3>
+</div>
+<div class="absolute bottom-10 left-10 text-white z-10">
+<p class="text-primary font-bold text-sm tracking-widest uppercase mb-2">The Venue</p>
+<h4 class="text-3xl font-bold">Royal Conservatory Gardens</h4>
+<p class="text-white/60 font-light mt-1">Palacio de la Moncloa, Madrid</p>
+</div>
+</div>
+<div class="flex flex-col justify-center gap-8 px-4">
+<div class="flex items-start gap-6">
+<div class="bg-primary/20 p-4 rounded-lg">
+<span class="material-symbols-outlined text-terracotta text-3xl">local_florist</span>
+</div>
+<div>
+<h5 class="text-xl font-bold">The Floral Theme</h5>
+<p class="text-[#1c1a0d]/60 mt-2 leading-relaxed">Olive branches and white peonies set against terracotta marble, reflecting our shared heritage and modern vision.</p>
+</div>
+</div>
+<div class="flex items-start gap-6">
+<div class="bg-primary/20 p-4 rounded-lg">
+<span class="material-symbols-outlined text-terracotta text-3xl">restaurant_menu</span>
+</div>
+<div>
+<h5 class="text-xl font-bold">The Royal Banquet</h5>
+<p class="text-[#1c1a0d]/60 mt-2 leading-relaxed">A minimalist take on Mediterranean luxury. A curated 7-course journey through the seasons.</p>
+</div>
+</div>
+<div class="mt-8">
+<button class="flex items-center gap-4 text-terracotta font-bold uppercase tracking-widest text-xs hover:gap-6 transition-all">
+                                Explore the Grounds <span class="material-symbols-outlined">arrow_right_alt</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Museum Gallery Section -->
+<section class="bg-white py-24 px-10">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-20">
+<h2 class="text-3xl md:text-5xl font-black mb-4">The Museum Gallery</h2>
+<div class="h-1 w-20 bg-primary mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+<!-- Photo 1 -->
+<div class="aspect-[3/4] overflow-hidden diamond-cut museum-spotlight relative group">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Black and white portrait of the couple in royal attire" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCr0XNmHNVHsUl8kTYTyUwOSNgPmMJbr0w0Zkqc7MsKZx-z7WjMbpSVRk9DduD0UMVDNvtOmS1Q8Y5sk_D4KjfKFjKm3hDPMRfV_6hLj9V0_MsqTEt7BnbpW8CHPDL5UkFjOksOGSojPyaJM3Ka0BJEo4LePesIaennLKcsyk4HHrdlwnUaXRYRLvM2bctI3BLD72wm1TyLSXTw-9wAKT9Qcu2ET3bgnwPKziMHKdyES5H5xdEP_LU-cNMrIAscaJdUbITbPkgEUVk');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<p class="text-white text-sm font-bold uppercase tracking-widest">Palace Mornings</p>
+</div>
+</div>
+<!-- Photo 2 -->
+<div class="aspect-[3/4] overflow-hidden diamond-cut museum-spotlight relative group">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="The couple dancing in a grand ballroom" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB0tBtowBJDUHljZm6ezorCeDeUnlWLaw3H-bmUPeZUkB0_k4UMX7-LssgO8knNVUWF1g5Ln0R6kn6D4ZLY0tZcIE02G6prnvF40OU1vFR-1YcCp3s6CyqrO3lNbAUiPm3uMtaU5m9FWqzj3zw8-uzZ0jHqT0C1MeYYFFahqk9eKyJj2Znfl6bWE6VtOpUakNEUFR-LkC08hL6RPGHRtzPN0ymU_gBQZCy9dNWADYDge7eGF0vC7ztXEHLt7DwRXqitl62fp7MtL5Q');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<p class="text-white text-sm font-bold uppercase tracking-widest">The Royal Waltz</p>
+</div>
+</div>
+<!-- Photo 3 -->
+<div class="aspect-[3/4] overflow-hidden diamond-cut museum-spotlight relative group">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Close up of a minimalist gold wedding monogram" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD7-ikB-OA64ZYZV4KuSV4pNGOoVBSrggUx_0Cim0XvVT2bCTd3aqvmNC4XmijAuzQa1qXL7wetn8fEolOr-H4pMsjkdmU5T-4eAEKlghL5gY1_DGABfJeDHGKrBF82zQmQr5k_vwbyLpPZ5Y06mmBRUkiM-ChkdPWthZuPsJd9l7GpBRXSWpMBtHb4P1rY8-5OkuwIumdD024OWxCX5vGLwY1vvunVr-9c_I7UBGgUl-RUF5cmQi_l7fvkXNqRsSIBadRoz9hICM8');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<p class="text-white text-sm font-bold uppercase tracking-widest">Eternal Details</p>
+</div>
+</div>
+<!-- Photo 4 -->
+<div class="aspect-[3/4] overflow-hidden diamond-cut museum-spotlight relative group">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="The couple walking through olive trees" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDb4Xt5FG1Mv1M99oG3lHqQq28pKpdsXIWKa8SHOQLAN-oAfg5j0WYza1c_aoyGYImF-Q6PI1FiSSU8xEuXpj2xCrnA7Ej1gSUeHKcXS4yGPb91vfv15jkUzyfHZaoxikSc6cxL6iryPm9O2fkevHl7BTg0UPwEqahGdVUql46pdk_kf1I6YFpzs_uVkyW5LlkyY5yf3o296RHoliNg2VOtoQRJMIhbY8JkuSiXP5kouF1CMB3KpK32N_TpylHkOfJvykavHeB6CQ0');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<p class="text-white text-sm font-bold uppercase tracking-widest">Garden Serenity</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer / RSVP -->
+<footer class="bg-background-dark text-white py-32 px-10 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-1/2 h-full bg-terracotta/10 diamond-cut -mr-20"></div>
+<div class="max-w-7xl mx-auto relative z-10 text-center md:text-left grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+<div>
+<h2 class="text-5xl md:text-7xl font-black mb-8 leading-tight">Confirm Your <br/><span class="text-primary italic">Presence</span></h2>
+<p class="text-white/50 text-xl max-w-md mb-12">We await your response by July 15th to finalize the royal registries.</p>
+<div class="flex flex-col md:flex-row gap-4">
+<button class="bg-primary text-background-dark font-bold px-12 py-5 uppercase tracking-[0.2em] hover:brightness-110 transition-all">
+                            RSVP Online
+                        </button>
+<button class="border border-white/20 text-white font-bold px-12 py-5 uppercase tracking-[0.2em] hover:bg-white hover:text-background-dark transition-all">
+                            Contact Us
+                        </button>
+</div>
+</div>
+<div class="flex justify-center md:justify-end">
+<div class="p-12 border border-white/10 glass-card diamond-cut flex flex-col items-center gap-6">
+<div class="bg-primary text-background-dark w-16 h-16 flex items-center justify-center rounded-full mb-4">
+<span class="material-symbols-outlined text-3xl">key</span>
+</div>
+<p class="text-white/60 uppercase tracking-widest text-[10px] font-bold">The Key to the Garden</p>
+<h4 class="text-2xl font-bold">Add to Apple / Google Calendar</h4>
+<div class="h-px w-20 bg-primary"></div>
+<p class="text-center text-sm text-white/40 max-w-[200px]">Unlock the date on your device for live updates</p>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-32 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+<span class="text-xs text-white/30 tracking-[0.3em] font-medium uppercase">Josías &amp; Sara © 2024</span>
+<div class="flex gap-8 text-xs text-white/30 tracking-[0.3em] uppercase">
+<a class="hover:text-primary transition-colors" href="#">Instagram</a>
+<a class="hover:text-primary transition-colors" href="#">Gift Registry</a>
+<a class="hover:text-primary transition-colors" href="#">Travel</a>
+</div>
+</div>
+</footer>
+</main>
+</body></html>
